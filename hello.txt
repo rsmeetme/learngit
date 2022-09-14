@@ -1,2 +1,3 @@
 Hello welcome to git series.
 Now, adding second line of code.
+Hi, I am adding third line in this file.
