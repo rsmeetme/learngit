@@ -1,0 +1,32 @@
+# * is used for all
+# ignores all .txt file. not matters how deep in hierarchy
+# *.txt 
+
+# / is used for current directory, 
+# it ignores all file in f1 folder
+# /f1
+
+# it ignores specific target file
+# /f1/abc.txt
+
+# it ignores all hello file with different extension
+# hello.*
+
+# ? is used to skip charactor
+# Basically, its ignores all files which have extension with 3 charactors and contains b charactor in middle.
+# *.?b?
+
+# Basically, its ignores all hello files which have extension with 3 charactors and contains l charactor in start and end.
+# hello.l?l
+
+# [] is used for single charactor array, 
+# In this way we ignore all files with have extension a and p
+# *.[ap]
+
+# ! is used for not, ignore all files with extension .a except file3.a file
+# *.[a]
+# !file3.a
+
+# [0-9] is used single digit range
+# it ignores file which contain digit between 0 to 9 in file name 
+# file[0-9].
