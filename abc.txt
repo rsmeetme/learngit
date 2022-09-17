@@ -1,3 +1,7 @@
 now add one linegit 
 
 I am having fun learning git
+
+
+
+i am add new line
